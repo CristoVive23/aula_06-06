@@ -1,0 +1,66 @@
+body{
+    background-image: url(./img/hairdressing-makeup-salon-where-you-can-see-elegant-chairs-where-clients-are-placed-hairdressing-elements.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+table{
+
+    background-color: rgba(125, 123, 123, 0.5); /* Cor de fundo com transparência */
+      backdrop-filter: blur(10px); /* Efeito de desfoque para o fundo */
+      border-radius: 10px;
+      padding: 20px;
+}
+
+h1{
+    font-size: 32px; /* Tamanho da fonte */
+    color: #ffffff; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto */
+    margin-top: 20px; /* Margem superior */
+    margin-bottom: 20px; /* Margem inferior */
+    text-transform: uppercase; /* Transformação do texto para maiúsculas */
+    font-weight: bold; /* Peso da fonte */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+label{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+}
+.container form{
+    background-color: rgba(255, 255, 255, 0.5); /* Cor de fundo com transparência */
+      backdrop-filter: blur(10px); /* Efeito de desfoque para o fundo */
+      border-radius: 10px;
+      padding: 20px;
+    border-radius: 20px;
+    padding: 50px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.237);
+}
+
+input[type="text"]{
+    width: 300px;
+}
+
+
+input[type="email"]{
+    width: 300px;
+}
+
+input[type="Submit"]{
+    width: 300px;
+    font-size: 20px;
+    line-height: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.237);
+
+}
